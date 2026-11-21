@@ -1,0 +1,215 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Flow State Activated · Workshops Through Movement</title>
+  <meta name="description" content="Flow State Activated is a wellness company creating movement-based workshops that help people slow down, reconnect with the body, and find their flow.">
+  <meta name="theme-color" content="#4d93e8">
+  <link rel="icon" href="assets/favicon.png" type="image/png">
+  <link rel="apple-touch-icon" href="assets/apple-touch-icon.png">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,300..500;1,9..144,300..500&family=Manrope:wght@400..700&family=Syne:wght@700&display=swap">
+
+  <link rel="stylesheet" href="css/styles.css">
+  <script>document.documentElement.classList.add('js');</script>
+  <script src="js/main.js" defer></script>
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+
+  <!-- Soft, slow-drifting light behind everything -->
+  <div class="ambient" aria-hidden="true">
+    <span class="ambient__blob ambient__blob--1"></span>
+    <span class="ambient__blob ambient__blob--2"></span>
+    <span class="ambient__blob ambient__blob--3"></span>
+  </div>
+  <!-- A gentle glow that follows the cursor -->
+  <div class="aura" aria-hidden="true"></div>
+
+  <header class="site-header">
+    <a class="brand" href="#top" data-breathe>
+      <img class="brand__logo" src="assets/logo/logo.png" alt="" width="480" height="390">
+      <span class="brand__name"><span>Flow State</span> <span>Activated</span></span>
+    </a>
+    <nav class="site-nav" aria-label="Primary">
+      <a href="#approach" data-breathe>Approach</a>
+      <a href="#workshops" data-breathe>Workshops</a>
+      <a href="#contact" data-breathe>Contact</a>
+    </nav>
+    <a class="btn btn--small site-header__cta" href="#contact" data-breathe>Book a workshop</a>
+  </header>
+
+  <!-- The breath rail: the page is one full breath. Each section is a phase. -->
+  <nav class="breath-rail" aria-label="Page sections">
+    <ol>
+      <li><a href="#top" data-breathe aria-label="Inhale: welcome"><span class="breath-rail__dot"></span><span class="breath-rail__label">Inhale</span></a></li>
+      <li><a href="#approach" data-breathe aria-label="Hold: our approach"><span class="breath-rail__dot"></span><span class="breath-rail__label">Hold</span></a></li>
+      <li><a href="#workshops" data-breathe aria-label="Exhale: workshops"><span class="breath-rail__dot"></span><span class="breath-rail__label">Exhale</span></a></li>
+      <li><a href="#contact" data-breathe aria-label="Rest: contact"><span class="breath-rail__dot"></span><span class="breath-rail__label">Rest</span></a></li>
+    </ol>
+  </nav>
+
+  <main id="main">
+
+    <!-- 01 · INHALE: welcome -->
+    <section id="top" class="section hero container" aria-labelledby="hero-title">
+      <div class="hero__text" data-reveal>
+        <p class="eyebrow"><span class="eyebrow__num">01</span>Inhale</p>
+        <h1 id="hero-title" class="hero__title">Move into <em>flow.</em></h1>
+        <p class="hero__lede">Workshops through movement. We guide individuals and teams to slow down, come home to the body, and rediscover the calm, focused state where everything flows.</p>
+        <div class="hero__actions">
+          <a class="btn" href="#workshops" data-breathe>Explore workshops</a>
+          <a class="link-soft" href="#approach" data-breathe>Our approach</a>
+        </div>
+      </div>
+
+      <div class="hero__visual" data-reveal style="--reveal-delay: .3s">
+        <div class="orb" data-breathe>
+          <span class="orb__ring orb__ring--outer"></span>
+          <span class="orb__ring orb__ring--inner"></span>
+          <span class="orb__core"></span>
+          <p class="orb__guide" aria-hidden="true">
+            <span class="orb__in">breathe in</span>
+            <span class="orb__out">breathe out</span>
+          </p>
+        </div>
+      </div>
+
+      <a class="scroll-cue" href="#approach" aria-label="Scroll to our approach"><span></span></a>
+    </section>
+
+    <!-- 02 · HOLD: approach -->
+    <section id="approach" class="section approach container" aria-labelledby="approach-title">
+      <p class="eyebrow" data-reveal><span class="eyebrow__num">02</span>Hold</p>
+      <h2 id="approach-title" class="statement" data-breathe data-reveal>
+        We believe the body already knows the way back to calm. Our workshops simply <em>make space</em> for it.
+      </h2>
+
+      <ul class="pebbles">
+        <li class="pebble pebble--1" data-breathe data-reveal>
+          <svg class="pebble__icon" viewBox="0 0 48 48" aria-hidden="true"><path d="M4 24q5-10 10 0t10 0 10 0 10 0"/></svg>
+          <h3>Move</h3>
+          <p>Intuitive, guided movement that meets every body exactly where it is.</p>
+        </li>
+        <li class="pebble pebble--2" data-breathe data-reveal style="--reveal-delay: .15s">
+          <svg class="pebble__icon" viewBox="0 0 48 48" aria-hidden="true"><circle cx="24" cy="24" r="5"/><circle cx="24" cy="24" r="12" opacity=".6"/><circle cx="24" cy="24" r="19" opacity=".3"/></svg>
+          <h3>Breathe</h3>
+          <p>Breath is the bridge between body and mind. We return to it again and again.</p>
+        </li>
+        <li class="pebble pebble--3" data-breathe data-reveal style="--reveal-delay: .3s">
+          <svg class="pebble__icon" viewBox="0 0 48 48" aria-hidden="true"><circle cx="18" cy="24" r="11"/><circle cx="30" cy="24" r="11"/></svg>
+          <h3>Connect</h3>
+          <p>Shared practice builds trust, presence, and a quieter kind of community.</p>
+        </li>
+      </ul>
+    </section>
+
+    <!-- 03 · EXHALE: workshops -->
+    <section id="workshops" class="section workshops container" aria-labelledby="workshops-title">
+      <header class="section-head" data-reveal>
+        <div>
+          <p class="eyebrow"><span class="eyebrow__num">03</span>Exhale</p>
+          <h2 id="workshops-title" class="section-title">Workshops to help you <em>let go.</em></h2>
+        </div>
+        <p class="section-lede">Each experience is designed to release tension, invite presence, and leave you lighter than when you arrived.</p>
+      </header>
+
+      <div class="stones">
+        <article class="stone" data-breathe data-reveal>
+          <div class="stone__media">
+            <!-- Replace the placeholder with: <img src="assets/images/morning-flow.jpg" alt="Describe the photo"> -->
+            <div class="placeholder" aria-hidden="true"><span>Image coming soon</span></div>
+          </div>
+          <div class="stone__body">
+            <p class="stone__meta">60 min · All levels</p>
+            <h3>Morning Flow</h3>
+            <p>A slow, guided movement practice to wake the body gently and set a clear, grounded tone for the day.</p>
+          </div>
+        </article>
+
+        <article class="stone" data-breathe data-reveal style="--reveal-delay: .15s">
+          <div class="stone__media">
+            <div class="placeholder" aria-hidden="true"><span>Image coming soon</span></div>
+          </div>
+          <div class="stone__body">
+            <p class="stone__meta">75 min · All levels</p>
+            <h3>Breath &amp; Motion</h3>
+            <p>Pair the breath with fluid movement to quiet a busy mind and settle fully into the present moment.</p>
+          </div>
+        </article>
+
+        <article class="stone" data-breathe data-reveal>
+          <div class="stone__media">
+            <div class="placeholder" aria-hidden="true"><span>Image coming soon</span></div>
+          </div>
+          <div class="stone__body">
+            <p class="stone__meta">90 min · Teams</p>
+            <h3>Team Reset</h3>
+            <p>A shared movement experience for teams that releases stress, sparks connection, and restores focus.</p>
+          </div>
+        </article>
+
+        <article class="stone" data-breathe data-reveal style="--reveal-delay: .15s">
+          <div class="stone__media">
+            <div class="placeholder" aria-hidden="true"><span>Image coming soon</span></div>
+          </div>
+          <div class="stone__body">
+            <p class="stone__meta">60 min · Community</p>
+            <h3>Grounding Circle</h3>
+            <p>Gentle movement, stillness, and reflection in a supportive circle. Arrive as you are, leave a little lighter.</p>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <!-- 04 · REST: contact -->
+    <section id="contact" class="section rest container" aria-labelledby="contact-title">
+      <div class="rest__panel" data-breathe data-reveal>
+        <div class="rest__intro">
+          <p class="eyebrow eyebrow--light"><span class="eyebrow__num">04</span>Rest</p>
+          <h2 id="contact-title" class="section-title">Let’s find your <em>flow</em>, together.</h2>
+          <p class="section-lede">Bring a workshop to your team, studio, or community, or simply say hello. We’d love to hear what you’re looking for.</p>
+        </div>
+
+        <!-- Not connected yet: see the TODO in js/main.js -->
+        <form class="contact" action="#" method="post">
+          <label class="field">
+            <span class="field__label">Name</span>
+            <input type="text" name="name" autocomplete="name" required>
+          </label>
+          <label class="field">
+            <span class="field__label">Email</span>
+            <input type="email" name="email" autocomplete="email" required>
+          </label>
+          <label class="field field--full">
+            <span class="field__label">What are you looking for?</span>
+            <textarea name="message" rows="4"></textarea>
+          </label>
+          <button class="btn btn--light" type="submit" data-breathe>Send message</button>
+          <p class="contact__thanks" role="status" hidden>Thank you. Take a deep breath. We’ll be in touch soon.</p>
+        </form>
+      </div>
+    </section>
+
+  </main>
+
+  <footer class="site-footer">
+    <div class="container site-footer__inner">
+      <a class="brand" href="#top" data-breathe>
+        <img class="brand__logo" src="assets/logo/logo.png" alt="" width="480" height="390" loading="lazy">
+        <span class="brand__name"><span>Flow State</span> <span>Activated</span></span>
+      </a>
+      <p class="site-footer__tag">Workshops through movement.</p>
+      <nav class="site-footer__nav" aria-label="Footer">
+        <a href="#approach" data-breathe>Approach</a>
+        <a href="#workshops" data-breathe>Workshops</a>
+        <a href="#contact" data-breathe>Contact</a>
+      </nav>
+      <p class="site-footer__copy">© <span data-year>2026</span> Flow State Activated</p>
+    </div>
+  </footer>
+</body>
+</html>
